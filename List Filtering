@@ -1,0 +1,10 @@
+function filter_list(list) {
+ let result = [];
+
+for(let i = 0; i <= list.length- 1;i++){
+if(Number.isInteger(list[i]))  {
+result.push(list[i]);
+}
+}
+ return result;
+}
