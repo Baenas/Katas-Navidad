@@ -1,0 +1,11 @@
+function getAverage(marks){
+
+let averagenote = 0;
+for(let i = 0; i <= marks.length - 1;i++){
+averagenote = averagenote + marks[i];
+}
+averagenote = averagenote / marks.length;
+averagenote = Math.floor(averagenote);
+return averagenote ;
+}
+getAverage([1,2,3,4,5]);
