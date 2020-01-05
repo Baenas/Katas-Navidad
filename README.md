@@ -40,4 +40,42 @@ return final;
 };
 
 ```
+ ## Vowel count
+  ```javascript
+function getCount(str) {
+  var vowelsCount = 0;
+  
+  for( let vow = 0; vow <= str.length;vow++ ){
+  
+ switch(str[vow]) {
+  case "a":
+  vowelsCount ++;
+  break;
+   case "e":
+  vowelsCount ++;
+    break;
+ case "i":
+  vowelsCount ++;
+    break;
+   case "o":
+  vowelsCount ++;
+    break;
+   case "u":
+  vowelsCount ++;
+    break;
+}
 
+
+  
+  }
+  // enter your majic here
+  
+  return vowelsCount;
+}
+
+```
+
+ ## Remove first and last
+  ```javascript
+
+```
