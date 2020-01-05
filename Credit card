@@ -1,0 +1,26 @@
+function maskify(cc) {
+let result = "" ;
+
+
+
+for(let i = 0 ; i <=  cc.length -5 ;i++){
+ result += "#";
+}
+for(let i  =  cc.length -4 ; i <=  cc.length -1 ;i++){
+  if(cc[i] == undefined){
+
+  }else{
+ result += cc[i];
+  }
+
+}
+return result;
+}
+
+maskify("4556364607935616");
+/*
+if(cc[cc.length -1] == cc[cc.length -1] ){
+
+  result += cc[i];
+}
+*/
