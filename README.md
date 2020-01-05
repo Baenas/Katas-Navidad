@@ -29,3 +29,12 @@ return  finalstring;
                 }
 
 ```
+
+  
+function removeChar(str){
+
+var final = str.substring(1,str.length -1);
+
+return final;
+};
+
