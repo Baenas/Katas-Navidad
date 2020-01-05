@@ -1,0 +1,32 @@
+var flatten = function (array){
+
+let finalarray = [] ;
+
+  for(let i = 0;i < array.length ;i++){
+if(array[0] > 0){
+finalarray.push(array[i]);
+ }
+
+
+  for(let j = 0; j < array[i].length;j++){
+
+
+    
+   if (array[0][j] > 0) {
+   finalarray.push(array[i][j]);
+   
+ }
+
+   
+
+
+
+  }
+   
+
+}
+return finalarray;
+
+}
+
+
